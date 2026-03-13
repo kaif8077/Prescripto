@@ -10,15 +10,43 @@ const Contact = () => {
       </div>
 
       <div className='my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm'>
-        <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
+
+        <img
+          className='w-full md:max-w-[360px]'
+          src={assets.contact_image}
+          alt="Prescripto contact"
+        />
+
         <div className='flex flex-col justify-center items-start gap-6'>
-          <p className=' font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className=' text-gray-500'>54709 Willms Station <br /> Suite 350, Washington, USA</p>
-          <p className=' text-gray-500'>Tel: (415) 555-0132 <br /> Email: greatstackdev@gmail.com</p>
-          <p className=' font-semibold text-lg text-gray-600'>CAREERS AT PRESCRIPTO</p>
-          <p className=' text-gray-500'>Learn more about our teams and job openings.</p>
-          <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
+
+          <p className='font-semibold text-lg text-gray-600'>OUR OFFICE</p>
+
+          <p className='text-gray-500'>
+            Prescripto Healthcare Services <br />
+            Connaught Place, New Delhi <br />
+            Delhi 110001, India
+          </p>
+
+          <p className='text-gray-500'>
+            Tel: +91 8528576249 <br />
+            Email: mohdkaif80275@gmail.com
+          </p>
+
+          <p className='font-semibold text-lg text-gray-600'>
+            CAREERS AT PRESCRIPTO
+          </p>
+
+          <p className='text-gray-500'>
+            Join our mission to simplify healthcare access through technology.
+            Explore opportunities to work with our growing team.
+          </p>
+
+          <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>
+            Explore Jobs
+          </button>
+
         </div>
+
       </div>
 
     </div>
