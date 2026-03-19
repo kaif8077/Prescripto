@@ -17,7 +17,9 @@ connectCloudinary()
 app.use(express.json())
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://prescripto-theta-pied.vercel.app"
+  "https://prescripto-theta-pied.vercel.app",
+  "https://prescripto-ysdw.vercel.app",
+  "http://localhost:5174"
 ];
 
 app.use(cors({
